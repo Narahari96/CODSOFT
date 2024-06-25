@@ -2,8 +2,6 @@
 
 # Design a simple calculator with basic arithmetic operations. Prompt the user to input two numbers and an operation choice. Perform the calculation and display the result.
 
-# # ------------------------defining mathematical operations (add, sub, mul,div)-------------------------------------------
-
 def add(x,y):
     return x+y
 
@@ -15,8 +13,6 @@ def mul(x,y):
 
 def div(x,y):
     return x/y
-
-#--------------------------------------defining calculator-------------------------------------------------------------
 
 def calculator():
     print("Select the operation: ")
