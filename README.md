@@ -2,7 +2,7 @@
 
 # Design a simple calculator with basic arithmetic operations. Prompt the user to input two numbers and an operation choice. Perform the calculation and display the result.
 
-def add(x,y):
+  def add(x,y):
     return x+y
 
 def sub(x,y):
@@ -23,7 +23,6 @@ def calculator():
 
 while True:
     choice = input("enter your choice (1/2/3/4): ")
-
     if choice in ('1','2','3','4'):
         try:
             num1 = float(input("enter your first number: "))
